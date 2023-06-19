@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    max-width: 100%;
+}
+
+#anketa {
+    width: 662px;
+    border: 1px solid red;
+    margin: 0px auto;
+    height: 698px;
+    /* background-image: url("../img/task1.png"); */
+}
+#anketa h3 {
+    margin-top: 1px;
+    font-size: 30px;
+    color: #712300;
+    letter-spacing: 0.75px;
+    margin-bottom: 21px;
+}
+
+#anketa fieldset{
+    /* background-color:#faf3ee ; */
+    width: 98.5%;
+    margin: 0px auto;
+    border: 2px solid #7ecbc9;
+    border-radius: 6px;
+}
+#anketa fieldset legend {
+    color: #7ecbc9;
+    margin-left: 11px;
+    font-size: 17px;
+    letter-spacing: 0.44px;
+}
+#anketa fieldset label {
+    display: block;
+    overflow: hidden;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    width: 457px;
+}
+
+#anketa fieldset label span{
+    float: left;
+    color: #ad4e2d;
+    width: 202px;
+}
+
+#anketa fieldset label input{
+    float: right;
+    width: 246px;
+    border: 2px solid #bdbec1;
+    font-size: 14px;
+}
+
+/* ! NEED FIXED */
+#anketa fieldset label h4{
+    font-size: 12px;
+}
+
+
+#anketa fieldset label span.RadioButtonDescription{
+    float: right;
+}
+
+#anketa fieldset label input.RadioButtonChoise{
+    float: left;
+}
