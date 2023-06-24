@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #f0f0f0
 }
 * {
     margin: 0px;
@@ -8,5 +9,127 @@ html, body {
 img {
     max-width: 100%;
 }
+
+
+
+#RegistrationForm {
+    width: 811px;
+    height: 540px; 
+    margin: 0px auto;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    background-color: #fff;
+
+    /* ! УДАЛИТЬ ПОТОМ */
+    background-image: url("../img/HW2.png");
+    background-repeat: no-repeat;
+    background-position: -3px -7px;
+
+}
+
+#RegistrationForm h3{
+    padding-top: 12px;
+    padding-left: 47px;
+    margin-bottom: 10px;
+    color: #878787;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    background-image: url("/static/img/v1.bmp");
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-position: 11px 9px;
+}
+
+.TopContainer{
+    margin-left: 7px;
+    margin-right: 18px;
+}
+
+#RegistrationForm fieldset{
+    border: none;
+    border-top: 1px solid #e1e1e1;
+
+}
+
+#RegistrationForm fieldset legend{
+    margin-left: 20px;
+    color: #b4c27a;
+    font-size: 15px;
+    letter-spacing: 0.45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.TopContainerLeftBlock{
+    display: inline-block;
+    width: 298px;
+    padding-top: 9px;
+}
+
+.TopContainerRightBlock{
+    display: inline-block;
+    padding-top: 9px;
+}
+
+
+#RegistrationForm fieldset label{
+    display: block;
+    overflow: hidden;
+}
+
+#RegistrationForm fieldset label span{
+    float: left;
+    padding-top: 3px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    text-align: right;
+}
+
+#RegistrationForm fieldset label input{
+    border: 1px solid #e8e8e8;
+    font-size: 16px;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelLeft{
+    padding-right: 2px;
+    margin-bottom: 4px;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelRight{
+    padding-right: 2px;
+    margin-bottom: 4px;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelLeft span{
+    width: 148px;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelLeft input{
+    width: 141px;
+    float: right;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelRight span{
+    width: 138px;
+    margin-right: 7px;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelRight input{
+    width: 141px;
+    float: left;
+}
+
+#RegistrationForm fieldset label.TopContainerLabelRight span.TopContainerLabelRightSpanPS{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    font-style: italic;
+}
+
+
 
 
