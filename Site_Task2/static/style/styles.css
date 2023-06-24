@@ -10,8 +10,6 @@ img {
     max-width: 100%;
 }
 
-
-
 #RegistrationForm {
     width: 811px;
     height: 540px; 
@@ -73,7 +71,6 @@ img {
     padding-top: 9px;
 }
 
-
 #RegistrationForm fieldset label{
     display: block;
     overflow: hidden;
@@ -130,6 +127,65 @@ img {
     font-style: italic;
 }
 
+.CenterContainer{
+    margin-top: 14px;
+    margin-left: 7px;
+    margin-right: 18px;
+}
 
 
+#RegistrationForm fieldset.FieldSetLeft{
+    display: block;
+    float: left;
+    width: 375px;
+    border-right: 1px solid #e1e1e1;
+}
 
+#RegistrationForm fieldset.FieldSetRight{
+    display: block;
+    float: left;
+    width: 409px;
+}
+
+#RegistrationForm div.CenterContainer fieldset legend{
+    margin-bottom: 9px;
+}
+
+#RegistrationForm div.CenterContainer fieldset label{
+    margin-bottom: 3px;
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft span{
+    width: 105px;
+    margin-right: 7px;
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft span.NoMatter{
+    color: #b9b9b9;
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft input{
+    float: left;
+    font-size: 17px;
+
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft input.InputLongWidth{
+    width: 247px;
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft input.InputPhone{
+    width: 140px;
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft select{
+    width: 129px;
+}
+
+#RegistrationForm fieldset label.CenterContainerLeft:nth-child(6){
+    margin-bottom: 7px;
+}
+
+#RegistrationForm fieldset label.RadioButtonLabelArea{
+    
+}
