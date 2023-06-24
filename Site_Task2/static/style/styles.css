@@ -190,9 +190,13 @@ img {
     margin-bottom: 10px;
 }
 
+#RegistrationForm div.CenterContainer fieldset.FieldSetRight label{
+    margin-bottom: 1px;
+}
+
 #RegistrationForm fieldset.FieldSetRight span{
     width: 106px;
-    margin-right: 8px;
+    margin-right: 7px;
 }
 
 #RegistrationForm fieldset.FieldSetRight label.RadioButtonLabelAreaChoiseGender{
@@ -209,8 +213,36 @@ img {
     margin: 0;
     padding: 0;
     padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 13px;
+    padding-left: 4px;
+    padding-right: 12px;
     float: right;
+    width: 31px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.BDay select{
+    border: 1px solid #e8e8e8;
+    font-size: 15px;
+    margin-right: 1px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.BDay select.InputDateDay{
+    width: 40px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.BDay select.InputDateMonth{
+    width: 130px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.BDay input.InputDateYear{
     width: 30px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.BDay span.BDRightSpanPS{
+    width: 52px;
+    float: right;
+    color: #7f7f7f;
+    margin-top: 1px;
+    margin-right: 28px;
+    font-size: 12px;
+    padding: 0px;
 }
