@@ -11,9 +11,9 @@ img {
 
 #anketa {
     width: 662px;
-    border: 1px solid red;
     margin: 0px auto;
     height: 698px;
+    /* border: 1px solid red; */
     /* background-image: url("../img/task1.png"); */
 }
 #anketa h3 {
@@ -25,13 +25,20 @@ img {
 }
 
 #anketa fieldset{
-    /* background-color:#faf3ee ; */
+    background-color:#faf3ee ;
     width: 98.5%;
     margin: 0px auto;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     border: 2px solid #7ecbc9;
     border-radius: 6px;
 }
+
+/* * ОТСТУПЫ МЕЖ БЛОКАМИ  */
+#anketa fieldset:first-of-type{
+    height: 148px;
+}
+
+
 #anketa fieldset legend {
     color: #7ecbc9;
     margin-left: 11px;
@@ -60,20 +67,66 @@ img {
     font-size: 14px;
 }
 
-/* ! NEED FIXED */
-#anketa fieldset label h4{
-    font-size: 12px;
+#anketa fieldset label select{
+    float: left;
+    margin-left: 5px;
+    width: 120px;
+    border: 2px solid #bdbec1;
+    font-size: 14px;
+    
 }
 
+#anketa fieldset label span.TextAreaText{
+    width: 207px;
+}
 
-#anketa fieldset label span.RadioButtonDescription{
-    float: right;
+.TextAreaEat{
+    width: 248px;
+    height: 56px;
+    margin-bottom: 4px;
+}
+
+#anketa fieldset label h4{
+    font-size: 14px;
+    color: #712300;
+    letter-spacing: 0.8px;
+    padding-bottom: 7px;
+}
+
+#anketa fieldset label.RadioButtonLabelArea{
+    padding: 0px;
+    padding-left: 8px;
+    margin-top: 4px;
+    padding-bottom: 7px;
 }
 
 #anketa fieldset label input.RadioButtonChoise{
     float: left;
+    width: 22px;
+}
+
+#anketa fieldset label span.RadioButtonDescription{
+    float: left;
+    width: 432px;
+}
+
+#anketa fieldset label.RadioButtonLastLabelArea{
+    padding: 0px;
+    padding-left: 8px;
+    margin-top: 4px;
+    padding-bottom: 2px;
+}
+
+#anketa fieldset:last-of-type{
+    padding-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 #anketa .SubmitButton{
-    
+    background: linear-gradient(180deg, rgba(227,235,231,1) 17%, rgba(107,195,194,1) 83%);    color: #712300;
+    border: 2px solid #7ecbc9;
+    border-radius: 6px;
+    width: 114px;
+    height: 38px;
+    margin-left: 1px;
 }

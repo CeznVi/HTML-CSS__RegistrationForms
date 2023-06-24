@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./static/style/styles.css">
 </head>
+
 <body>
     <form id="anketa">
         <h3>Анкета посетителя ресторана</h3>
@@ -43,44 +45,50 @@
                 </select>
             </label>
             <label>
-                <span>Какие блюда Вы хотели бы увидеть в меню?</span>
-                <textarea></textarea>
+                <span class="TextAreaText">Какие блюда Вы хотели бы увидеть в меню?</span>
+                <textarea class="TextAreaEat"></textarea>
             </label>
         </fieldset>
 
         <fieldset>
             <legend>Оценка нашего заведения</legend>
             <label>
-                <h4>Почему Вы выбрали наше заведение?</h4>    
-
+                <h4>Почему Вы выбрали наше заведение?</h4>
+            </label>
+            <label class="RadioButtonLabelArea">
                 <input type="radio" class="RadioButtonChoise" name="whyYouChoise" value="nearWorkOrHome">
                 <span class="RadioButtonDescription">Недалеко от дома/работы</span>
-            
+            </label>
+            <label class="RadioButtonLabelArea">
                 <input type="radio" class="RadioButtonChoise" name="whyYouChoise" value="sawPromo">
                 <span class="RadioButtonDescription">Увидел рекламу</span>
-            
+            </label>
+            <label class="RadioButtonLabelArea">
                 <input type="radio" class="RadioButtonChoise" name="whyYouChoise" value="advised">
                 <span class="RadioButtonDescription">Посоветовали</span>
-            
+            </label>
+            <label class="RadioButtonLabelArea">
                 <input type="radio" class="RadioButtonChoise" name="whyYouChoise" value="optimal">
                 <span class="RadioButtonDescription">Оптимальное соотношение цены и качества</span>
             </label>
 
-            <label>
+            <label class="RadioButtonLastLabelArea">
                 <h4>Вы будете рекомендовать наше заведение своим знакомым?</h4>
+            </label>
+
+            <label class="RadioButtonLabelArea">
                 <input type="radio" class="RadioButtonChoise" name="doYouRecomendetUs" value="yes">
                 <span class="RadioButtonDescription">Да</span>
+            </label>
+            <label class="RadioButtonLabelArea">
                 <input type="radio" class="RadioButtonChoise" name="doYouRecomendetUs" value="no">
                 <span class="RadioButtonDescription">Нет</span>
             </label>
-
         </fieldset>
         <input type="submit" value="Отправить" class="SubmitButton">
 
 
     </form>
-
-
-
 </body>
+
 </html>
