@@ -186,6 +186,31 @@ img {
     margin-bottom: 7px;
 }
 
-#RegistrationForm fieldset label.RadioButtonLabelArea{
-    
+#RegistrationForm div.CenterContainer fieldset.FieldSetRight legend{
+    margin-bottom: 10px;
+}
+
+#RegistrationForm fieldset.FieldSetRight span{
+    width: 106px;
+    margin-right: 8px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.RadioButtonLabelAreaChoiseGender{
+    display: inline-block;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.RadioButtonLabelAreaChoiseGender input.RadioButtonGender{
+    display: inline-block;
+    width: 12px;
+}
+
+#RegistrationForm fieldset.FieldSetRight label.RadioButtonLabelAreaChoiseGender span{
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 13px;
+    float: right;
+    width: 30px;
 }
